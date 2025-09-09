@@ -35,7 +35,7 @@ End the program and close the output video window by pressing 'q'.
 ### Developed By: SAI HRISHI M
 ### Register No: 212224240140
 
-``` Python
+``` python
 ## i) Write the frame as JPG file
 import cv2
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ plt.show()
 
 <img width="650" height="527" alt="Screenshot 2025-09-10 015304" src="https://github.com/user-attachments/assets/80fc28f5-5253-4435-a471-2a6df66cf558" />
 
-```
+```python
 ## ii) Display the video
 cap = cv2.VideoCapture(0)
 
@@ -76,7 +76,7 @@ cap.release()
 <img width="643" height="508" alt="Screenshot 2025-09-10 015438" src="https://github.com/user-attachments/assets/4ed5daa9-1cb6-4211-a4de-a44b9cc3622c" />
 
 
-```
+```python
 ## iii) Display the video by resizing the window
 cap = cv2.VideoCapture(0)
 
@@ -97,7 +97,7 @@ cap.release()
 
 <img width="331" height="499" alt="Screenshot 2025-09-10 015608" src="https://github.com/user-attachments/assets/f46cdc58-863f-4ce1-9f29-d0afc1819d57" />
 
-```
+```python
 ## iv) Rotate and display the video
 cap = cv2.VideoCapture(0)
 
